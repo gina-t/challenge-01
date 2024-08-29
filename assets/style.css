@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    text-align: right;
+}
+
+header{
+    position: fixed;
+    border-bottom 10px solid purple;
+    height:60px;
+    width:100%;
+    padding:autopx;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @font-face {
+    font-family: Cupidus;
+    src: url(static/Cupidus-Extralight.ttf);
+  }
+  body {
+    color: rgb(33, 42, 62);
+    background-color: rgb(155, 164, 181);
+    font-family: Cupidus;
+    font-weight: 300;
+    font-size: 20px;
+  }  
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 60px;
+    font-family: Cupidus ;
+}
+h2 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(57, 72, 103) ;
+}
+
+a {
+    color: rgb(57, 72, 103);
+}
+
+a:hover{
+    color:rgb(241, 246, 249)
+}
+
+p {
+    font-weight: 300;
+    font-size: 20px;
+}
+img{
+    display:block;
+    margin: 20px 0px;
+}
+figure[
+    padding:20px;
+]
+section{
+    margin-bottom:0px;
+    padding:20px 20px;
+    border-top:3px; solid
+}
+form{
+    margin:0 auto;
+    width:500px;
+    padding:10px;
+    border:5px solid
+}
